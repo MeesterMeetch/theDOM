@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 console.log("Welcome to the DOM");
 console.log("Why - Thank You Calvin");
 
@@ -167,5 +167,4 @@ divideButton.click(function(){
   var numba2 = Number($('#numTwo').val());
   var calc = numba1 / numba2;
   answer.html(calc);
->>>>>>> 66a3f317fad9b5ee93acfbea2280e7d0300a0a2b
 });
