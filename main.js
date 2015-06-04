@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 console.log("Welcome to the DOM");
 console.log("Why - Thank You Calvin");
 
@@ -133,4 +134,38 @@ $(".equals-button").click(function(){
  // CLEAR!! //
 $(".clear-button").click(function(){
     resetCalculator("0");
+=======
+var addButton = $('#addButton');
+    subtractButton = $('#subtractButton');
+    multiplyButton = $('#multiplyButton');
+    divideButton = $('#divideButton');
+    answer = $('#answer');
+
+addButton.click(function(){
+  var numba1 = Number($('#numOne').val());
+  var numba2 = Number($('#numTwo').val());
+  var calc = numba1 + numba2;
+  answer.html(calc);
+});
+
+subtractButton.click(function(){
+  var numba1 = Number($('#numOne').val());
+  var numba2 = Number($('#numTwo').val());
+  var calc = numba1 - numba2;
+  answer.html(calc);
+});
+
+multiplyButton.click(function(){
+  var numba1 = Number($('#numOne').val());
+  var numba2 = Number($('#numTwo').val());
+  var calc = numba1 * numba2;
+  answer.html(calc);
+});
+
+divideButton.click(function(){
+  var numba1 = Number($('#numOne').val());
+  var numba2 = Number($('#numTwo').val());
+  var calc = numba1 / numba2;
+  answer.html(calc);
+>>>>>>> 66a3f317fad9b5ee93acfbea2280e7d0300a0a2b
 });
