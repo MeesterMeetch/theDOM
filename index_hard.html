@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="Skeleton/css/skeleton.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+    <header>
+
+        <h3>Let's Do Some Math!</h3>
+
+        <input type="text" id="num_one" />
+        <br /><br />
+        <input type="text" id="num_two" />
+        <br /><br />
+        <input type="submit" value="Calculate" id="calculateBtn" />
+
+        <div class="answer">
+          <br />
+          Answer: <span id="answer"></span>
+        </div>
+
+    </header>
+
+    <div class="Calculator">
+
+      <div class="twelve columns">
+        <input type="text" id="display"/>  <!-- class="nine columns" -->
+        <a class="clear-button three columns" href="#">C</a>
+
+      </div>
+
+      <div class="twelve columns">
+        <a class="num-button three columns" href="#" value="7">7</a>
+        <a class="num-button three columns" href="#" value="8">8</a>
+        <a class="num-button three columns" href="#" value="9">9</a>
+        <a class="function-button three columns" href="#" value="/">/</a>
+      </div>
+
+      <div class="twelve columns">
+        <a class="num-button three columns" href="#" value="4">4</a>
+        <a class="num-button three columns" href="#" value="5">5</a>
+        <a class="num-button three columns" href="#" value="6">6</a>
+        <a class="function-button three columns" href="#" value"x">x</a>
+      </div>
+
+      <div class="twelve columns">
+        <a class="num-button three columns" href="#" value="1">1</a>
+        <a class="num-button three columns" href="#" value="2">2</a>
+        <a class="num-button three columns" href="#" value="3">3</a>
+        <a class="function-button three columns" href="#" value="-">&ndash;</a>
+      </div>
+
+      <div class="twelve columns">
+        <a class="num-button three columns" href="#" value="0">0</a>
+        <a class="num-button three columns" href="#" value=".">.</a>
+        <a class="equals-button three columns" href="#" value="=">=</a>
+        <a class="function-button three columns" href="#" value="+">+</a>
+      </div>
+
+    </div>
+
+<!-- ++scripts__ -->
+
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"> </script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="main_hard.js"></script>
+
+
+  </body>
+</div>
+</html>
